@@ -1,0 +1,67 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  position: absolute;
+  width: 50%;
+  -webkit-transform: translateX(50%) translateY(100%);
+          transform: translateX(50%) translateY(100%);
+}
+
+.btn {
+  border: 0;
+  padding: 10px 25px;
+  background-color: #d2d2d2;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.box {
+  padding: 25px;
+  border-radius: 1rem;
+  display: block;
+  margin-bottom: 25px;
+}
+
+body.light {
+  background-color: #fbf8cc;
+}
+
+body.light .box1 {
+  background-color: #CFBAF0;
+  color: #000;
+}
+
+body.light .box2 {
+  background-color: #fde4cf;
+  color: #000;
+}
+
+body.light .btn {
+  background-color: #B9FBC0;
+}
+
+body.dark {
+  background-color: #2b2b2b;
+}
+
+body.dark .box1 {
+  background-color: #A3C4F3;
+  color: #fff;
+}
+
+body.dark .box2 {
+  background-color: #CFBAF0;
+  color: #fff;
+}
+
+body.dark .btn {
+  background-color: #F1C0E8;
+}
+/*# sourceMappingURL=style.css.map */
